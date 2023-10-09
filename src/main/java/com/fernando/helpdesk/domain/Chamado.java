@@ -35,26 +35,26 @@ private static final long serialVersionUID = 1L;
 	private String observacoes;
 	
 	@ManyToOne
+	@JoinColumn(name = "tecnico_id")
+	private Tecnico tecnico;
+	
+	@ManyToOne
 	@JoinColumn(name = "cliente_id")
 	private Cliente cliente;
 	
-	@ManyToOne
-	@JoinColumn(name = "tecnico_id")
-	private Tecnico tecnico;
 	
 	public Chamado() {
 		super();
 	}
-	public Chamado(Integer id, Prioridade prioridade, Status status, String titulo, String observacoes, Cliente cliente,
-			Tecnico tecnico) {
+	public Chamado(Integer id, Prioridade prioridade, Status status, String titulo, String observacoes, Tecnico tecnico, Cliente cliente) {
 		super();
 		this.id = id;
 		this.prioridade = prioridade;
 		this.status = status;
 		this.titulo = titulo;
 		this.observacoes = observacoes;
-		this.cliente = cliente;
 		this.tecnico = tecnico;
+		this.cliente = cliente;
 	}
 	public Integer getId() {
 		return id;
@@ -98,17 +98,17 @@ private static final long serialVersionUID = 1L;
 	public void setObservacoes(String observacoes) {
 		this.observacoes = observacoes;
 	}
-	public Cliente getCliente() {
-		return cliente;
-	}
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
-	}
 	public Tecnico getTecnico() {
 		return tecnico;
 	}
 	public void setTecnico(Tecnico tecnico) {
 		this.tecnico = tecnico;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
 	@Override
 	public int hashCode() {
