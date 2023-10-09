@@ -20,7 +20,7 @@ public class Cliente extends Pessoa{
 
 	public Cliente() {
 		super();
-		addPerfil(Perfil.ADMIN);
+		addPerfil(Perfil.CLIENTE);
 	}
 
 	public Cliente(Integer id, String nome, String cpf, String email, String senha) {
