@@ -1,0 +1,83 @@
+[33mcommit b2f7c688bb93ad8d72e1fba9b4917f27df3c3336[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Sun Oct 29 20:12:04 2023 -0300
+
+    endpoint create para Tecnico
+
+[33mcommit b78c597e8e9278a9896608608fc3a88249ac92dd[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Sun Oct 29 16:30:06 2023 -0300
+
+    endpoint findAll para Tecnico
+
+[33mcommit 4d96c6a6aed092851eff29837bf2438658afeda3[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Thu Oct 19 19:31:23 2023 -0300
+
+    Exceção para objeto não encontrado
+
+[33mcommit d44f4d46a39ddc1625b277d847b22ffc9d70477e[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Mon Oct 9 20:37:00 2023 -0300
+
+    Padrão DTO para Tecnico
+
+[33mcommit 89c744f2211515636584e8cb970275f67a1d512b[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Mon Oct 9 15:06:49 2023 -0300
+
+    endpoint findById para Tecnico
+
+[33mcommit 0a4157d37347a3dfb913dfd757a1e04f86b20151[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Mon Oct 9 15:00:35 2023 -0300
+
+    protegendo aplicação contra serialização
+
+[33mcommit 2a7de4980a04b51dc7fca72120ff8f090ffe962f[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Tue Oct 3 21:01:08 2023 -0300
+
+    perfil de desenvolvimento
+
+[33mcommit 7aa7b55a15e1a2f53806e7f6f669b6403a99f700[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Tue Oct 3 17:59:52 2023 -0300
+
+    perfil de teste criado
+
+[33mcommit 399df763881cd90cb3f2a7d4fab0deca7a70d48e[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Sat Sep 30 23:50:55 2023 -0300
+
+    carga inicial da base de dados
+
+[33mcommit c68372b3b93e1144a4c242c8dc88763603eaf44b[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Sat Sep 30 23:02:31 2023 -0300
+
+    repositories criados
+
+[33mcommit 76594d789122c65b6b19b572369cc88d0420910e[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Fri Sep 29 22:23:31 2023 -0300
+
+    anotacoes JPA para classes de dominio
+
+[33mcommit 912254370d3886924761eb399d58c3dd4eb5eb77[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Fri Sep 29 18:13:42 2023 -0300
+
+    classes de dominio iniciadas
+
+[33mcommit 42981c90d5e786794aa41caf8fcf1d4ed18373b7[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Mon Sep 25 13:43:03 2023 -0300
+
+    tipos enumerados criados
+
+[33mcommit 105a8fbddcbc5d7afc8401f207358a36e16f7086[m
+Author: fernando <maruno.string@gmail.com>
+Date:   Mon Sep 25 10:54:58 2023 -0300
+
+    projeto iniciado

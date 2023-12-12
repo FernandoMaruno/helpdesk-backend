@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.apache.catalina.filters.AddDefaultCharsetFilter;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fernando.helpdesk.domain.Tecnico;
