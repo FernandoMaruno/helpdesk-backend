@@ -8,11 +8,11 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fernando.helpdesk.domain.Pessoa;
 import com.fernando.helpdesk.domain.Cliente;
+import com.fernando.helpdesk.domain.Pessoa;
 import com.fernando.helpdesk.domain.dtos.ClienteDTO;
-import com.fernando.helpdesk.repositories.PessoaRepository;
 import com.fernando.helpdesk.repositories.ClienteRepository;
+import com.fernando.helpdesk.repositories.PessoaRepository;
 import com.fernando.helpdesk.services.exceptions.DataIntegrityViolationException;
 import com.fernando.helpdesk.services.exceptions.ObjectnotFoundException;
 
@@ -66,6 +66,7 @@ public class ClienteService {
 		if (obj.isPresent() && obj.get().getId() != objDTO.getId()) {
 			throw new DataIntegrityViolationException("E-mail já cadastrado no sistema!");
 		}
+
 
 	}
 
