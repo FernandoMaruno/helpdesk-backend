@@ -53,7 +53,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 			Authentication authResult) throws IOException, ServletException {
 		
 		String username = ((UserSS) authResult.getPrincipal()).getUsername();
-		String token =jwtUtil.generateToken(username);
+		String token = jwtUtil.generateToken(username);
 		response.setHeader("access-control-expose-headers", "Authorization");
 		response.setHeader("Authorization", "Bearer " + token);
 	}
@@ -71,7 +71,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
 	//método json criado//
 	private CharSequence json() {
-		long date = new Date().getTime();
+		long date = new Date().getTime(); 
 		return "{"
 				+ "\"timestamp\": " + date + ", " 
 				+ "\"status\": 401, "

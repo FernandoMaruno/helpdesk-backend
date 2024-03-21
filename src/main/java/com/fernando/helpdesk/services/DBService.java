@@ -28,7 +28,7 @@ public class DBService {
 	@Autowired
 	private BCryptPasswordEncoder encoder;
 	
-	public void instanciaDB() { 
+	public void instanciaDB() {  
 		
 		Tecnico tec1 = new Tecnico(null, "Fernando", "004.903.710-27", "fernando@gmail.com", encoder.encode("123"));
 		tec1.addPerfil(Perfil.ADMIN);
